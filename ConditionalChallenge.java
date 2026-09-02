@@ -19,7 +19,7 @@ public class ConditionalChallenge {
             System.out.println("Failed");
         }
         System.out.println("--- Part 3: Season Determiner ---");
-        int temp = 60;
+        int temp = 65;
         System.out.println("Temperature: " + temp);
         if (temp > 80) {
             System.out.println("Season: Summer");
@@ -34,16 +34,16 @@ public class ConditionalChallenge {
         int number = 42;
         System.out.println("Number: " + number);
         if (number > 0) {
-            System.out.println(number + " is positive");
+            System.out.println(number + " is Positive");
         } else if (number == 0) {
-            System.out.println(number + " is zero");
+            System.out.println(number + " is Zero");
         } else {
-            System.out.println(number + " is negative");
+            System.out.println(number + " is Negative");
         }
         if (number % 2 == 0) {
-            System.out.println(number + " is even");
+            System.out.println(number + " is Even");
         } else {
-            System.out.println(number + " is odd");
+            System.out.println(number + " is Odd");
         }
         if (number % 5 == 0) {
             System.out.println(number + " is a multiple of 5");
