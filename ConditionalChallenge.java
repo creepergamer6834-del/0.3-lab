@@ -12,13 +12,15 @@ public class ConditionalChallenge {
         // String result = isCold == true ? "Temperature: 60" : "Temperature: 85";
         System.out.println("--- Part 2: Grade Calculator ---");
         int score = 85;
+        System.out.println("Score: " + score);
         if (score >= 70) {
             System.out.println("Passed");
         } else {
             System.out.println("Failed");
         }
         System.out.println("--- Part 3: Season Determiner ---");
-        int temp = 65;
+        int temp = 60;
+        System.out.println("Temperature: " + temp);
         if (temp > 80) {
             System.out.println("Season: Summer");
         } else if (temp >= 60) {
@@ -30,6 +32,7 @@ public class ConditionalChallenge {
         }
         System.out.println("--- Part 4: Number Classifier ---");
         int number = 42;
+        System.out.println("Number: " + number);
         if (number > 0) {
             System.out.println(number + " is positive");
         } else if (number == 0) {
